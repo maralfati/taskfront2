@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: red;
+}
+
+
+#div-out{
+    width: 50%;
+    height: 250px;
+    border: 1px black solid;
+    border-radius: 2px 6px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+#div-left{
+    width: 35%;
+    height: 100%;
+    margin-left: 10px;
+    border-right: 1px solid black;
+
+
+}
+#div-left form{
+    width: 100%;
+    height: 100#;
+
+}
+#div-left form .ll{
+    margin: 25px 0;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-decoration: underline 1px black;
+
+    
+}
+#div-left form .put{
+    border: none;
+
+}
+#div-left form .put:hover{
+    border: 1px solid black;
+
+}
+#div-left form button{
+    width: 90%;
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    padding: 4px 0;
+    border-radius: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+
+}
+#div-left form button:hover{
+    width: 40%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+
+    border: 1px white solid;
+    
+    border-radius: 40px;
+}
+#div-right{
+    width: 64%;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    #div-right h1{
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #div-right p{
+        width: 100%;
+        height:100px ;
+        text-align: justify;
+        color: rgba(48, 47, 47, 0.884);
+    }
+    #div-right #div-inside{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgba(48, 47, 47, 0.884);
+
+        
+    }
+    #div-right #div-inside .choose{
+        color: black;
+        margin-top: 30px;
+        background-color: red;
+        border: none;
+        padding: 5px;
+        border-radius: 25%;
+        font-weight: bold;
+        
+    }
+    #div-right #div-inside .choose:hover{
+        color: white;
+        margin-top: 30px;
+        background-color:black;
+        border: none;
+        padding: 15px;
+        border-radius: 40%;
+        font-weight: bold;
+    }
+    #div-right #div-inside label{
+        background-color: whitesmoke !important;
+    }
+
